@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 57778ec74dc47bf498b1ecf470d834b5
+timeCreated: 1459734987
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SideToSideTruck
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SideToSideTruck
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 112
+        width: 424
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: -106}
+        - {x: 68, y: -108}
+        - {x: 102, y: -107}
+        - {x: 127, y: -104}
+        - {x: 143, y: -102}
+        - {x: 186, y: -96}
+        - {x: 198, y: -88}
+        - {x: 201, y: -79}
+        - {x: 201, y: 73}
+        - {x: 200, y: 81}
+        - {x: 199, y: 85}
+        - {x: 197, y: 90}
+        - {x: 191, y: 96}
+        - {x: 181, y: 99}
+        - {x: 142, y: 105}
+        - {x: 126, y: 106}
+        - {x: 93, y: 111}
+        - {x: 63, y: 110}
+        - {x: 59, y: 117}
+        - {x: 50, y: 127}
+        - {x: 41, y: 132}
+        - {x: 31, y: 133}
+        - {x: -164, y: 133}
+        - {x: -174, y: 132}
+        - {x: -183, y: 131}
+        - {x: -195, y: 120}
+        - {x: -200, y: 111}
+        - {x: -201, y: 101}
+        - {x: -201, y: -94}
+        - {x: -200, y: -104}
+        - {x: -199, y: -113}
+        - {x: -188, y: -125}
+        - {x: -179, y: -130}
+        - {x: -169, y: -131}
+        - {x: 26, y: -131}
+        - {x: 36, y: -130}
+        - {x: 47, y: -128}
+        - {x: 58, y: -118}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
