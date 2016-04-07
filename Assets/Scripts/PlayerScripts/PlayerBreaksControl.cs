@@ -205,4 +205,9 @@ public class PlayerBreaksControl : MonoBehaviour
     {
         rocketParticles.Stop();
     }
+
+    public bool IsGameOver()
+    {
+        return gameOver;
+    }
 }

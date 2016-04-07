@@ -16,6 +16,8 @@ public class PlayerMovementScript : MonoBehaviour {
     public ParticleSystem leftJet;
     public ParticleSystem rightJet;
 
+    PlayerBreaksControl brakes;
+
     float averageMovementSpeed;
     float laneDistance;
     int targetLane;
@@ -29,10 +31,14 @@ public class PlayerMovementScript : MonoBehaviour {
         }
         laneDistance = Vector3.Distance(lanes[0].transform.position, lanes[1].transform.position);
         averageMovementSpeed = laneDistance / shiftTime;
+        brakes = GetComponent<PlayerBreaksControl>();
+
+        Messenger.AddListener("GameOver", StopMovement);
         ResetPlayer();
     }
 	
 	void Update () {
+        if (brakes.IsGameOver()) return;
         if (IsShifting())
         {
             transform.position += FindShiftSpeed() * Vector3.right;
@@ -85,6 +91,11 @@ public class PlayerMovementScript : MonoBehaviour {
             */
 
         }
+    }
+
+    void StopMovement()
+    {
+        StopAllCoroutines();
     }
 
     IEnumerator StartLaneShift()

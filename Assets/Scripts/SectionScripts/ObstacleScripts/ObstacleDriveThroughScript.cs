@@ -28,6 +28,7 @@ public class ObstacleDriveThroughScript : ObstacleScript {
         }
         obstacleRoatation = 90f - (90f * Mathf.Sign(endPoint.x - startPoint.x));
         arrowsContainer.localScale = new Vector3(Mathf.Sign(endPoint.x - startPoint.x), 1f);
+        arrowsContainer.gameObject.GetComponent<Animator>().SetFloat("MovementDirection", arrowsContainer.localScale.x);
         blockSpeed = Mathf.Lerp(baseSpeed - speedDeviation, baseSpeed + speedDeviation, Random.Range(0f, 1f));
         SetUpStart();
 	}
